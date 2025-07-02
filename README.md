@@ -154,7 +154,19 @@ Each week focuses on **one main topic**, sub-divided into concepts, with hand-pi
 (Coming soon…)
 
 ---
+### 🧠 Challenge Problems Solved (July 1 - Prefix + Map/Set Edition)
 
+| # | Problem Name | Platform | Topic |
+|--:|--------------|----------|-------|
+| 1 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | LeetCode #560 | Prefix Sum + Map |
+| 2 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | LeetCode #525 | Prefix + Map (0->-1 trick) |
+| 3 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | LeetCode #930 | Prefix Sum + Map |
+| 4 | [Count Submatrices That Sum to Target](https://leetcode.com/problems/count-submatrices-with-all-ones/) | LeetCode #1074 | 2D Prefix + Map |
+| 5 | [Subarray with 0 Sum](https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/) | GFG | Set + Prefix |
+| 6 | [Check If Subarray Sum Is Multiple of K](https://leetcode.com/problems/continuous-subarray-sum/) | LeetCode #523 | Prefix Sum % k + Map |
+| 7 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | LeetCode #974 | Prefix Mod + Map |
+
+---
 ### 🧭 How to Use This Repo
 - Study one main topic every week  
 - Cover all subtopics listed  
