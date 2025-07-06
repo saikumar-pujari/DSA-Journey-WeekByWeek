@@ -66,7 +66,84 @@ Each week focuses on **one main topic**, sub-divided into concepts, with hand-pi
 - String Hashing (intro)
 
 ### 🧠 Problems Solved:
-(To be updated...)
+
+### 🔥 Core Concepts for the Hashing:
+- Hashing fundamentals (hash tables, maps, sets)
+- unordered_map vs map
+- Hash functions, collision handling (brief theory)
+- When/why to use hashing in DSA
+
+---
+
+### ✅ Pattern-Based Practice:
+
+#### 🧩 Pattern 1: Frequency Map
+| #  | Problem                     | Platform  | Link                                                                |
+|----|-----------------------------|-----------|---------------------------------------------------------------------|
+| 1  | Valid Anagram               | Leetcode  | [LC 242](https://leetcode.com/problems/valid-anagram/)              |
+| 2  | Group Anagrams              | Leetcode  | [LC 49](https://leetcode.com/problems/group-anagrams/)              |
+| 3  | Top K Frequent Elements     | Leetcode  | [LC 347](https://leetcode.com/problems/top-k-frequent-elements/)    |
+| 4  | Sort Characters by Frequency| Leetcode  | [LC 451](https://leetcode.com/problems/sort-characters-by-frequency/)|
+| 5  | Reorganize String           | Leetcode  | [LC 767](https://leetcode.com/problems/reorganize-string/)          |
+
+---
+
+#### 🧩 Pattern 2: HashMap with Index Tracking
+| #  | Problem             | Platform  | Link                                                           |
+|----|---------------------|-----------|----------------------------------------------------------------|
+| 6  | Isomorphic Strings  | Leetcode  | [LC 205](https://leetcode.com/problems/isomorphic-strings/)    |
+| 7  | Word Pattern        | Leetcode  | [LC 290](https://leetcode.com/problems/word-pattern/)          |
+
+---
+
+#### 🧩 Pattern 3: Prefix Sum + HashMap
+| #  | Problem                                 | Platform  | Link                                                                          |
+|----|-----------------------------------------|-----------|--------------------------------------------------------------------------------|
+| 8  | Subarray Sum Equals K                   | Leetcode  | [LC 560](https://leetcode.com/problems/subarray-sum-equals-k/)                |
+| 9  | Binary Subarrays With Sum               | Leetcode  | [LC 930](https://leetcode.com/problems/binary-subarrays-with-sum/)            |
+| 10 | Contiguous Array                        | Leetcode  | [LC 525](https://leetcode.com/problems/contiguous-array/)                     |
+| 11 | Count Subarrays Divisible by K          | Leetcode  | [LC 974](https://leetcode.com/problems/subarray-sums-divisible-by-k/)         |
+| 12 | Count Submatrices That Sum to Target    | Leetcode  | [LC 1074](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/) |
+| 13 | Check If a Subarray With Sum = 0 Exists | GFG       | [GFG](https://www.geeksforgeeks.org/check-if-there-is-a-subarray-with-0-sum/) |
+
+---
+
+#### 🧩 Pattern 4: HashSet for Presence / Sequence
+| #  | Problem                       | Platform  | Link                                                                |
+|----|-------------------------------|-----------|----------------------------------------------------------------------|
+| 14 | Longest Consecutive Sequence | Leetcode  | [LC 128](https://leetcode.com/problems/longest-consecutive-sequence/)|
+| 15 | Two Sum                      | Leetcode  | [LC 1](https://leetcode.com/problems/two-sum/)                        |
+
+---
+
+#### 🧩 Pattern 5: Signature Hashing (Custom Key)
+| #  | Problem                | Platform  | Link                                                              |
+|----|------------------------|-----------|-------------------------------------------------------------------|
+| 16 | Group Shifted Strings  | Leetcode  | [LC 249](https://leetcode.com/problems/group-shifted-strings/)    |
+| 17 | Group Anagrams         | Leetcode  | [LC 49](https://leetcode.com/problems/group-anagrams/)            |
+
+---
+
+#### 🧩 Pattern 6: Custom Hashing / Coordinate Compression / Mod Tricks
+| #  | Problem                                  | Platform  | Link                                                                |
+|----|------------------------------------------|-----------|----------------------------------------------------------------------|
+| 18 | Subarrays Divisible by K                 | Leetcode  | [LC 974](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|
+| 19 | Count Subarrays with Equal 0s and 1s     | GFG       | [GFG](https://www.geeksforgeeks.org/count-subarrays-equal-number-1s-0s/) |
+| 20 | Maximum Size Subarray Sum Equals K       | Leetcode  | [LC 325](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) |
+
+---
+
+### 🧠 Advanced Notes:
+- Use `unordered_map` for O(1) avg. case lookups; `map` for sorted access
+- Normalize negative mods using: `(x % k + k) % k`
+- Build signature strings as keys when comparing patterns
+- HashSets are perfect for O(1) presence checks
+
+---
+
+✅ **Hashing Done!**  
+Ready to dominate Sliding Window + Prefix Sum + Longest Subarray problems next!
+
 
 ---
 
