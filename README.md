@@ -158,7 +158,7 @@ Ready to dominate Sliding Window + Prefix Sum + Longest Subarray problems next!
 - Sliding Window Maximum using Deque
 
 ### 🧠 Problems Solved:
-(To be added after completion...)
+-for Two-Pointers you can refer this sheet (https://drive.google.com/file/d/1p29hHuDFLHO0dFLfKj3l7zgCae23fADg/view) by @ItsRuntym
 
 ---
 
